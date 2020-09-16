@@ -9,6 +9,31 @@ if x == 4:
   adverb=input("Input adverb")
   insert4thThingHere=input("insert 4th thing")
   print(f"The {adjective} {noun} decided to {verb} and they did it {adverb}. {insert4thThingHere}.")
+
+if x == 150:
+  x = 1
+  bingo = input(print("Make your number"))
+  callednumbers = []
+  y = 0
+  NumberToAdd = 0
+
+  def picknumber(y):
+    tempbingo = randint(1,100)
+    while y <= 100:
+      y = y + 1
+      if tempbingo == callednumbers(y):
+        NumberToAdd = tempbingo
+        return 1
+
+  while x != 0:
+    print("And the number is...")
+    sleep(3)
+    while picknumber(0) == 1:
+      picknumber(0)
+    callednumbers.append(NumberToAdd)
+  
+
+
 if x == 3:
   noun="weeb"
   verb="watch anime"

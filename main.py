@@ -1,6 +1,22 @@
 from time import sleep
 from random import randint
 x = int(input("Which lesson? "))
+#Printus deletus = 100
+#Bingo = 150
+
+if x == 5:
+  print("Hello my name is Susan from space")
+  print("What is your name?")
+  name = input()
+  print(f"Hello {name}. I am from the year 2210 and I am 20 years old")
+  print("How old are you?")
+  age = int(input())
+  future_age=age+2210-2020
+  print(f"Wow, by 2210 you will be {future_age}, that is really old!")
+  print("What type of music are you into?")
+  music = input()
+  print(f"I have not heard of {music}")
+
 
 if x == 4:
   noun=input("Input Noun")
@@ -10,27 +26,51 @@ if x == 4:
   insert4thThingHere=input("insert 4th thing")
   print(f"The {adjective} {noun} decided to {verb} and they did it {adverb}. {insert4thThingHere}.")
 
+  #try:
+  #   tryexceptnumber=int(input("Enter a number"))
+  #except:
+  #  tryexceptnumber=int(input("Not an interger, try again"))
+  print("What is your first initial?")
+  initial = input()
+  print("What is your surname")
+  surname = input()
+  print("What is your age?")
+  age = int(input())
+  print("Do you like marmite? Yes or No")
+  marmite = input()
+  likes_marmite = marmite == "Yes"
+  decades = float(age / 10)
+  print(f"Well hello {initial} {surname}.")
+  print(f"It is {likes_marmite} that you like marmite.")
+  print(f"This is probably because you are {decades} decades old")
+
+
 if x == 150:
-  x = 1
   bingo = input(print("Make your number"))
   callednumbers = []
-  y = 0
-  NumberToAdd = 0
 
-  def picknumber(y):
-    tempbingo = randint(1,100)
+  def makeNumber():
+    print("And the number is...")
+    sleep(3)
+    randomNumber = randint(1,100)
+    while picknumber(0,randomNumber) == 1:
+      randomNumber = randint(1,100)
+      picknumber(0,randomNumber)
+    callednumbers.append(randomNumber)
+    End = input("Is ",randomNumber," the number?")
+    if End == "yes":
+      return 1
+    else:
+      return 0
+
+  def picknumber(y,tempbingo):
     while y <= 100:
       y = y + 1
       if tempbingo == callednumbers(y):
-        NumberToAdd = tempbingo
-        return 1
+        y = 1000
 
-  while x != 0:
-    print("And the number is...")
-    sleep(3)
-    while picknumber(0) == 1:
-      picknumber(0)
-    callednumbers.append(NumberToAdd)
+  while makeNumber() == 0:
+    makeNumber
   
 
 

@@ -1,0 +1,4 @@
+Decrease 2.5 by 1.8.,The answer was 0.7
+How many altogether are 258 and 162?,The answer was 420
+What is the difference between 6.3 and 2.4?,The answer was 3.9
+Increase 450 by 230.,The answer was 680

@@ -1,0 +1,30 @@
+This gives you the page numbers of every topic covered and the textbook it links with. Recap the content and type anything to put the pages into incorrect with a note next to it
+Pure 1: Algebraic expressions 1-15
+Pure 1: Quadratics 18-35
+Pure 1:Equations and inequalities 38-56
+Pure 1: Graphs and transformations 59-82
+Pure 1: Straight line graphs 89-108
+Pure 1: Circles 113-132
+Pure 1: Algebraic methods 137-154
+Pure 1: Bionomial expansion 158-169
+Pure 1: Trigonometric ratios 173-198
+Pure 1: Trigonometric identities 202-222
+Pure 1: Vectors 230-251
+Pure 1: Differentiation 255-282
+Stats 1: Data collection 1-16
+Stats 1: Measures of location and spread 20-36
+Stats 1: Representations of data 40-54
+Stats 1: Correlation 59-66
+Stats 1: Probability 69-80
+Stats 1: Modelling 118
+Stats 1: Acceleration 130-152
+Stats 1: Forces and motion 156-177
+Core Pure 1: Complex numbers 1-14
+Core Pure 1: Argand diagrams 17-39
+Core Pure 1: Series 43-51
+Core Pure 1: Roots of polynomials 54-68
+Core Pure 1: Matrices 94-121
+Core Pure 1: Linear transformations 126-151
+Core Pure 1: Proof by induction 155-165
+Core Pure 1: Vectors 167-202
+Further Mechanics 1: Work energy and power 15-33

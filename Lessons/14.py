@@ -1,0 +1,1 @@
+exec(open(f"Lessons/a13.py","r").read())
